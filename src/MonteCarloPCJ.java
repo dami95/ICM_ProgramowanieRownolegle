@@ -19,7 +19,7 @@ public class MonteCarloPCJ implements StartPoint {
     public void main() throws Throwable {
         int id = PCJ.myId();
         int threads = PCJ.threadCount();
-        long nAll = 2000000000;
+        long nAll = 10;
         long t = System.nanoTime();
 
         if (id == 0) {
