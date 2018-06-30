@@ -8,6 +8,6 @@
 - PCJ-5.0.6 (http://pcj.icm.edu.pl/)
 
 ## Results:
-- saved in results.csv
+- saved in results.csv and results.png
 - tested with different sets of iterations (nAll variable)
 - tested with different numbers of threads (no of lines in nodes.txt)
