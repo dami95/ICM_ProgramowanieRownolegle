@@ -34,4 +34,5 @@
 - Parameters about cores in Spark does not work (https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html)
 - Spark (with Scala) is at least 2 times slower than PCJ version (up to 5-6 times with 2 billions iterations)
 - Running code in Spark with different parameters in parallelize() method should optimize execution time
-- Spark is typical "black-box" technology, developer does not care about writing too much code and how it works inside   
+- Spark is typical "black-box" technology, developer does not care about writing too much code and how it works inside
+- Chart results/results.png show us that, Spark version of this program is slower in every case than 1 thread program in pure Java (using PCJ)   
